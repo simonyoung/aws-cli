@@ -11,14 +11,11 @@ RUN apk --no-cache add \
         curl \
         python \
         py-pip \
-        nodejs=8.12.0-r0 \
-        yarn=1.9.4-r0
+        nodejs \
+        yarn
 
 RUN pip install --upgrade pip \
         awsebcli \
         awscli
 
 RUN yarn global add serverless
-
-# Expose credentials volume
-RUN mkdir ~/.aws
