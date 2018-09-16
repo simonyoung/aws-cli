@@ -1,4 +1,4 @@
-# AWS CLI & AWS EB CLI in Docker
+# AWS CLI, AWS EB CLI & Serverless Framework in Docker
 
 Containerized AWS & AWS EB CLI on Alpine for use in CI pipelines to avoid installing AWS tools on containers.
 
